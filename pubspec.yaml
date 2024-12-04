@@ -1,0 +1,49 @@
+name: easybites
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+# Environment SDK version
+environment:
+  sdk: ^3.5.2
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  path_provider: ^2.0.10 # Pastikan menggunakan versi yang sesuai
+  flutter:
+    sdk: flutter
+  http: ^1.2.2  # Versi yang sesuai
+  google_fonts: ^6.2.1 # Versi terbaru
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.0.15 # Check for latest version at pub.dev
+
+# Dev dependencies for testing
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Flutter section for assets and fonts
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/ava1.jpg
+    - assets/images/ava2.png
+    - assets/images/broccoli.png
+    - assets/images/cabbage.png
+    - assets/images/carrot.png
+    - assets/images/corn.png
+    - assets/images/onion.png
+    - assets/images/orange.png
+    - assets/images/soymilk.png
+    - assets/images/splash1.png
+    - assets/images/splash2.png
+    - assets/images/splash3.png
+    - assets/images/splash4.png
+    - assets/images/splash5.png
+    - assets/images/logo3.png
+    - assets/images/logo4.png
